@@ -12,7 +12,7 @@
 
 Клонируйте репозиторий на свой компьютер:
 
-```git clone https://github.com/your_username/Velocity.git ```
+```git clone https://github.com/your_username/Velocity-HTML-CSS.git ```
 
 Откройте файл index.html в вашем любимом браузере.
 
@@ -21,7 +21,11 @@
 
 ## Демо
 Демонстрация проекта доступна по ссылке здесь:
-```git clone https://github.com/your_username/Velocity.git ```
+```velocity-html-css.vercel.app ```
+
+## Макет
+Демонстрация макета доступна по ссылке здесь:
+```[git clone https://github.com/your_username/Velocity.git](https://www.figma.com/file/TfqcylqmzGVO9we2xfQ2aN/Velocity?type=design&node-id=0-1&mode=design&t=8JhaTfSgsWf6aGdz-0) ```
 
 ## Вклад
 Если вы хотите внести свой вклад в проект, вам необходимо:
