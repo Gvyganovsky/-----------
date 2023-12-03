@@ -18,10 +18,12 @@
 
 ## Демо
 Демонстрация проекта доступна по ссылке здесь:
+
 ```https://velocity-html-css.vercel.app/ ```
 
 ## Макет
 Демонстрация макета доступна по ссылке здесь:
+
 ```https://www.figma.com/file/TfqcylqmzGVO9we2xfQ2aN/Velocity?type=design&node-id=0-1&mode=design&t=wDHfOMKFHVc8EgMQ-0 ```
 
 ## Вклад
