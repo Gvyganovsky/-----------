@@ -5,191 +5,252 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 
 <body class="page__body">
     <header class="page__header page-header">
-        <a href="#" class="logo">
-            Velocity
-        </a>
-        <nav class="page-header__nav">
-            <ul class="page-header__menu main-menu">
-                <li class="main-menu__item">
-                    <a href="#" class="main-menu__link">
-                        Home
-                    </a>
-                </li>
-                <li class="main-menu__item">
-                    <a href="#" class="main-menu__link">
-                        Contact
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <div class="page-header__container container">
+            <a href="#" class="logo">
+                Velocity
+            </a>
+            <nav class="page-header__nav">
+                <ul class="page-header__menu main-menu">
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link main-menu__link_blue">
+                            Home
+                        </a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main class="page__main">
-        <section class="page__main hero">
-            <h1 class="hero__title title">This is Velocity</h1>
-            <button type="button" class="hero__btn btn hero__btn_sign-up">sign up</button>
-            <button type="button" class="hero__btn btn">Learn more</button>
+        <section class="hero">
+            <div class="hero__container container">
+                <h1 class="hero__title">This is Velocity</h1>
+                <button type="button" class="hero__btn hero__btn_sign-up btn_sign-up">sign up</button>
+                <button type="button" class="hero__btn btn_learn-more">Learn more</button>
+            </div>
         </section>
-        <section class="page__main what-we-do">
-            <h2 class="section-title">what we do</h2>
-            <p class="section-subtitle">This is some text inside of a div block.</p>
-            <ul class="what-we-do__list">
-                <li class="what-we-do__item">
-                    <img src="#" alt="#" width="94px" height="94px" class="what-we-do__icon">
-                    <h3 class="what-we-do__item-title">
-                        Graphic Design
-                    </h3>
-                    <p class="what-we-do__item-text item-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
-                        elementum tristique.
-                    </p>
-                </li>
-                <li class="what-we-do__item">
-                    <img src="#" alt="#" width="94px" height="94px" class="what-we-do__icon">
-                    <h3 class="what-we-do__item-title">
-                        Awesome code
-                    </h3>
-                    <p class="what-we-do__item-text item-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
-                        elementum tristique.
-                    </p>
-                </li>
-                <li class="what-we-do__item">
-                    <img src="#" alt="#" width="94px" height="94px" class="what-we-do__icon">
-                    <h3 class="what-we-do__item-title">
-                        free template
-                    </h3>
-                    <p class="what-we-do__item-text item-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
-                        elementum tristique.
-                    </p>
-                </li>
-            </ul>
+
+        <section class="what-we-do">
+            <div class="container container_more">
+                <h2 class="what-we-do__title section-title">what we do</h2>
+                <p class="what-we-do__subtitle section-subtitle">This is some text inside of a div block.</p>
+                <ul class="what-we-do__list">
+                    <li class="what-we-do__item">
+                        <img src="./assets/icon/Graphic-Design.svg" alt="Graphic Design" width="94px" height="94px"
+                            class="what-we-do__icon">
+                        <h3 class="what-we-do__item-title">
+                            Graphic Design
+                        </h3>
+                        <p class="what-we-do__item-text item-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique.
+                        </p>
+                    </li>
+                    <li class="what-we-do__item">
+                        <img src="./assets/icon/Awesome-code.svg" alt="Awesome code" width="94px" height="94px"
+                            class="what-we-do__icon">
+                        <h3 class="what-we-do__item-title">
+                            Awesome code
+                        </h3>
+                        <p class="what-we-do__item-text item-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique.
+                        </p>
+                    </li>
+                    <li class="what-we-do__item">
+                        <img src="./assets/icon/Free-template.svg" alt="Free template" width="94px" height="94px"
+                            class="what-we-do__icon">
+                        <h3 class="what-we-do__item-title">
+                            free template
+                        </h3>
+                        <p class="what-we-do__item-text item-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique.
+                        </p>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section class="page__main services">
-            <h2 class="section-title">
-                services
-            </h2>
-            <p class="section-subtitle section-subtitle_white">
-                This is some text inside of a div block.
-            </p>
-            <article class="services__block services-block">
-                <img src="#" alt="#" width="430px" height="287px" class="services-block__img">
-                <h3 class="services-block__tlte">
-                    SERVICES one
-                </h3>
-                <p class="services-block__text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-                    tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius.
+
+        <section class="services">
+            <div class="services__container container container_more">
+                <h2 class="services__title section-title">
+                    services
+                </h2>
+                <p class="services__subtitle section-subtitle section-subtitle_white">
+                    This is some text inside of a div block.
                 </p>
-                <button>
-                    Learn more
-                </button>
-            </article>
-            <article class="services__block">
-                <img src="#" alt="#" width="430px" height="287px" class="services-block__img">
-                <h3 class="services-block__tlte">
-                    SERVICES two
-                </h3>
-                <p class="services-block__text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-                    tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius.
+                <ul class="services__list">
+                    <li class="services__item">
+                        <img src="./assets/img/SERVICES-one.jpg" alt="SERVICES one" width="430px" height="287px"
+                            class="services__img">
+                        <h3 class="services__item-tilte">
+                            SERVICES one
+                        </h3>
+                        <p class="services__item-text item-text item-text_white">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum
+                            tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius.
+                        </p>
+                        <button class="services__btn btn_learn-more">
+                            Learn more
+                        </button>
+                    </li>
+                    <li class="services__item">
+                        <img src="./assets/img/SERVICES-two.jpg" alt="SERVICES two" width="430px" height="287px"
+                            class="services__img">
+                        <h3 class="services__item-tilte">
+                            SERVICES two
+                        </h3>
+                        <p class="services__item-text item-text item-text_white">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum
+                            tristique.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius.
+                        </p>
+                        <button class="services__btn btn_learn-more">
+                            Learn more
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="tab">
+            <div class="tab__container container">
+                <h2 class="tab__title section-title">
+                    Tab Section
+                </h2>
+                <p class="tab__subtitle section-subtitle">
+                    This is some text inside of a div block.
                 </p>
-                <button class="services-block__btn btn">
-                    Learn more
-                </button>
-            </article>
+                <div class="tab__btn-block">
+                    <button type="button" class="tab__btn tab__btn_blue">
+                        Tab Button 1
+                    </button>
+                    <button type="button" class="tab__btn">
+                        Tab Button 2
+                    </button>
+                    <button type="button" class="tab__btn">
+                        Tab Button 3
+                    </button>
+                </div>
+                <img src="./assets/img/tab.jpg" alt="tab" width="940px" height="627px" class="tab__img">
+                <h2 class="tab__title section-title section-title_small">
+                    Some Title Here
+                </h2>
+                <p class="tab__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique.
+                </p>
+                <p class="tab__text">
+                    Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+                </p>
+                <p class="tab__text">
+                    Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique
+                    posuere.
+                </p>
+            </div>
         </section>
-        <section class="page__main tab">
-            <h2 class="section-title">
-                Tab Section
-            </h2>
-            <p class="section-subtitle">
-                This is some text inside of a div block.
-            </p>
-            <button type="tab__btn tab__btn_bkue">
-                Tab Button 1
-            </button>
-            <button type="tab__btn">
-                Tab Button 2
-            </button>
-            <button type="tab__btn">
-                Tab Button 3
-            </button>
-            <img src="#" alt="#" width="940px" height="627px" class="tab__img">
-            <h2 class="section-title">
-                Some Title Here
-            </h2>
-            <p class="tab__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-                tristique.
-            </p>
-            <p class="tab__text">
-                Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-            </p>
-            <p class="tab__text">
-                Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique
-                posuere.
-            </p>
-        </section>
-        <section class="page__main info">
-            <h3 class="info__title">
-                about velocity
-            </h3>
-            <p class="info__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
-                tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
-                erat.
-            </p>
-            <h3 class="info__title">
-                useful links
-            </h3>
-            <a class="info__link">
-                Phasellus gravida semper nisi
-            </a>
-            <a class="info__link">
-                Suspendisse nisl elit
-            </a>
-            <a class="info__link">
-                Dellentesque habitant morbi
-            </a>
-            <a class="info__link">
-                Etiam sollicitudin ipsum
-            </a>
-            <h3 class="info__title">
-                social
-            </h3>
-            <svg></svg>
-            <a class="info__link">
-                Twitter
-            </a>
-            <svg></svg>
-            <a class="info__link">
-                Facebook
-            </a>
-            <svg></svg>
-            <a class="info__link">
-                Pinterest
-            </a>
-            <svg></svg>
-            <a class="info__link">
-                Google
-            </a>
-            <svg></svg>
-            <a class="info__link">
-                Webflow
-            </a>
+
+        <section class="info">
+            <div class="container container_more">
+                <ul class="info__list">
+                    <li class="info__item">
+                        <h3 class="info__title info__title_mb">
+                            about velocity
+                        </h3>
+                        <p class="info__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                            elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
+                            commodo diam libero vitae erat.
+                        </p>
+                    </li>
+                    <li class="info__item">
+                        <h3 class="info__title">
+                            useful links
+                        </h3>
+                        <p class="info__item-text">
+                            <a href="#" class="info__link">
+                                Phasellus gravida semper nisi
+                            </a>
+                        </p>
+                        <p class="info__item-text">
+                            <a href="#" class="info__link">
+                                Suspendisse nisl elit
+                            </a>
+                        </p>
+                        <p class="info__item-text">
+                            <a href="#" class="info__link">
+                                Dellentesque habitant morbi
+                            </a>
+                        </p>
+                        <p class="info__item-text">
+                            <a href="#" class="info__link">
+                                Etiam sollicitudin ipsum
+                            </a>
+                        </p>
+                    </li>
+                    <li class="info__item">
+                        <h3 class="info__title">
+                            social
+                        </h3>
+                        <div class="info__icon-block">
+                            <img src="./assets/icon/Twitter.svg" alt="Twitter" width="20px" height="20px"
+                                class="info__icon">
+                            <a href="#" class="info__link info__link_pb">
+                                Twitter
+                            </a>
+                        </div>
+                        <div class="info__icon-block">
+                            <img src="./assets/icon/Facebook.svg" alt="Facebook" width="20px" height="20px"
+                                class="info__icon">
+                            <a href="#" class="info__link info__link_pb">
+                                Facebook
+                            </a>
+                        </div>
+                        <div class="info__icon-block">
+                            <img src="./assets/icon/Pinterest.svg" alt="Pinterest" width="20px" height="20px"
+                                class="info__icon">
+                            <a href="#" class="info__link info__link_pb">
+                                Pinterest
+                            </a>
+                        </div>
+                        <div class="info__icon-block">
+                            <img src="./assets/icon/Google.svg" alt="Google" width="20px" height="20px"
+                                class="info__icon">
+                            <a href="#" class="info__link info__link_pb">
+                                Google
+                            </a>
+                        </div>
+                        <div class="info__icon-block">
+                            <img src="./assets/icon/Webflow.svg" alt="Webflow" width="20px" height="20px"
+                                class="info__icon">
+                            <a href="#" class="info__link info__link_pb">
+                                Webflow
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
 
     <footer class="page__footer footer">
-        <p class="footer__title">
-            Copyright Velocity Inc. Made in Webflow.
-        </p>
+        <div class="container">
+            <p class="footer__title">
+                Copyright Velocity Inc. Made in Webflow.
+            </p>
+        </div>
     </footer>
 </body>
 
