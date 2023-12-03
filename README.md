@@ -18,11 +18,11 @@
 
 ## Демо
 Демонстрация проекта доступна по ссылке здесь:
-```velocity-html-css.vercel.app ```
+```https://velocity-html-css.vercel.app/ ```
 
 ## Макет
 Демонстрация макета доступна по ссылке здесь:
-```[git clone https://github.com/your_username/Velocity.git](https://www.figma.com/file/TfqcylqmzGVO9we2xfQ2aN/Velocity?type=design&node-id=0-1&mode=design&t=8JhaTfSgsWf6aGdz-0) ```
+```https://www.figma.com/file/TfqcylqmzGVO9we2xfQ2aN/Velocity?type=design&node-id=0-1&mode=design&t=wDHfOMKFHVc8EgMQ-0 ```
 
 ## Вклад
 Если вы хотите внести свой вклад в проект, вам необходимо:
